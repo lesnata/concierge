@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'concierge_db',
         'USER': 'concierge_dev',
         'PASSWORD': 'simplepass',
-        'HOST': 'db',
+        'HOST': '0.0.0.0',
         'PORT': 5432,
         'TEST': {
             'HOST': 'db',
